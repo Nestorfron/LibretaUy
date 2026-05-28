@@ -190,7 +190,7 @@ export default function Navbar() {
               to="/quiz"
               className="flex items-center justify-center gap-2 w-full bg-slate-900 hover:bg-black text-white py-4 rounded-2xl font-bold transition-all"
             >
-              Empezar simulacro
+              Empezar Simulador
 
               <ChevronRight size={20} />
             </Link>

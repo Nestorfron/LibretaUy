@@ -1,44 +1,185 @@
 [
-    {
-      "id": 1,
-      "category": "Señales",
-      "difficulty": "Fácil",
-      "question": "¿Qué significa esta señal?",
-      "image": "🛑",
-      "options": [
-        "Prohibido estacionar",
-        "Pare obligatorio",
-        "Velocidad máxima",
-        "Ceda el paso"
-      ],
-      "correctAnswer": "Pare obligatorio"
-    },
-    {
-      "id": 2,
-      "category": "Normativa",
-      "difficulty": "Media",
-      "question": "¿Cuál es el límite de alcohol permitido para conducir en Uruguay?",
-      "image": "🍺",
-      "options": [
-        "0.3",
-        "0.5",
-        "0.0",
-        "1.0"
-      ],
-      "correctAnswer": "0.0"
-    },
-    {
-      "id": 3,
-      "category": "Prioridad",
-      "difficulty": "Fácil",
-      "question": "¿Quién tiene prioridad en una rotonda?",
-      "image": "⭕",
-      "options": [
-        "Quien entra",
-        "Quien circula dentro",
-        "El vehículo más grande",
-        "El más rápido"
-      ],
-      "correctAnswer": "Quien circula dentro"
-    }
-  ]
+  {
+    "id": 1,
+    "category": "Señales",
+    "difficulty": "Fácil",
+    "question": "¿Qué indica una señal de Pare?",
+    "image": "/signals/regulatory/r1_pare.png",
+    "options": ["Reducir velocidad", "Detenerse completamente", "Ceder el paso", "Continuar con precaución"],
+    "correctAnswer": "Detenerse completamente"
+  },
+  {
+    "id": 2,
+    "category": "Normativa",
+    "difficulty": "Fácil",
+    "question": "¿Cuál es el nivel máximo de alcohol permitido al conducir en Uruguay?",
+    "image": "🍺",
+    "options": ["0.3 g/l", "0.5 g/l", "0.0 g/l", "1.0 g/l"],
+    "correctAnswer": "0.0 g/l"
+  },
+  {
+    "id": 3,
+    "category": "Prioridad",
+    "difficulty": "Fácil",
+    "question": "En una intersección sin señalización, ¿quién tiene prioridad?",
+    "image": "➕",
+    "options": ["El vehículo de la izquierda", "El vehículo de la derecha", "El más rápido", "El más grande"],
+    "correctAnswer": "El vehículo de la derecha"
+  },
+  {
+    "id": 4,
+    "category": "Seguridad",
+    "difficulty": "Fácil",
+    "question": "¿Quiénes deben usar cinturón de seguridad?",
+    "image": "🚗",
+    "options": ["Solo el conductor", "Solo acompañante", "Todos los ocupantes", "No es obligatorio"],
+    "correctAnswer": "Todos los ocupantes"
+  },
+  {
+    "id": 5,
+    "category": "Velocidad",
+    "difficulty": "Media",
+    "question": "¿Cuál es la velocidad máxima en zonas urbanas?",
+    "image": "🏙️",
+    "options": ["30 km/h", "45 km/h", "60 km/h", "75 km/h"],
+    "correctAnswer": "45 km/h"
+  },
+  {
+    "id": 6,
+    "category": "Seguridad",
+    "difficulty": "Media",
+    "question": "¿Qué debe hacer al acercarse a un paso peatonal?",
+    "image": "🚶",
+    "options": ["Acelerar", "Ignorar", "Ceder el paso", "Tocar bocina"],
+    "correctAnswer": "Ceder el paso"
+  },
+  {
+    "id": 7,
+    "category": "Luces",
+    "difficulty": "Media",
+    "question": "¿Cuándo deben usarse las luces bajas?",
+    "image": "💡",
+    "options": ["Solo de noche", "Solo en ruta", "Siempre encendidas", "Solo con lluvia"],
+    "correctAnswer": "Siempre encendidas"
+  },
+  {
+    "id": 8,
+    "category": "Normativa",
+    "difficulty": "Fácil",
+    "question": "¿Está permitido usar el celular mientras se conduce?",
+    "image": "📱",
+    "options": ["Sí", "Solo llamadas", "Solo mensajes", "No"],
+    "correctAnswer": "No"
+  },
+  {
+    "id": 9,
+    "category": "Prioridad",
+    "difficulty": "Media",
+    "question": "En una rotonda, ¿quién tiene prioridad?",
+    "image": "⭕",
+    "options": ["El que entra", "El que circula dentro", "El más rápido", "El más grande"],
+    "correctAnswer": "El que circula dentro"
+  },
+  {
+    "id": 10,
+    "category": "Señales",
+    "difficulty": "Fácil",
+    "question": "Las señales triangulares indican:",
+    "image": "⚠️",
+    "options": ["Obligación", "Advertencia", "Prohibición", "Información"],
+    "correctAnswer": "Advertencia"
+  },
+
+  {
+    "id": 11,
+    "category": "Estacionamiento",
+    "difficulty": "Fácil",
+    "question": "¿Está permitido estacionar sobre la vereda?",
+    "image": "🅿️",
+    "options": ["Sí", "Solo motos", "Solo de noche", "No"],
+    "correctAnswer": "No"
+  },
+  {
+    "id": 12,
+    "category": "Seguridad",
+    "difficulty": "Media",
+    "question": "¿Qué hacer en caso de lluvia intensa?",
+    "image": "🌧️",
+    "options": ["Aumentar velocidad", "Reducir velocidad", "Apagar luces", "Ignorar"],
+    "correctAnswer": "Reducir velocidad"
+  },
+  {
+    "id": 13,
+    "category": "Luces",
+    "difficulty": "Media",
+    "question": "¿Cuándo se pueden usar luces altas?",
+    "image": "🔦",
+    "options": ["Siempre", "En ciudad", "Cuando no encandilan", "Nunca"],
+    "correctAnswer": "Cuando no encandilan"
+  },
+  {
+    "id": 14,
+    "category": "Normativa",
+    "difficulty": "Fácil",
+    "question": "¿Es obligatorio el casco en motocicletas?",
+    "image": "🪖",
+    "options": ["No", "Solo conductor", "Sí, siempre", "Solo en ruta"],
+    "correctAnswer": "Sí, siempre"
+  },
+  {
+    "id": 15,
+    "category": "Documentación",
+    "difficulty": "Fácil",
+    "question": "¿Qué documentos debe portar el conductor?",
+    "image": "📄",
+    "options": ["Licencia", "Cédula", "Libreta del vehículo", "Todos los anteriores"],
+    "correctAnswer": "Todos los anteriores"
+  },
+
+  {
+    "id": 16,
+    "category": "Seguridad",
+    "difficulty": "Media",
+    "question": "La distancia de seguridad permite:",
+    "image": "🚗",
+    "options": ["Ir más rápido", "Evitar multas", "Frenar a tiempo", "Ahorrar combustible"],
+    "correctAnswer": "Frenar a tiempo"
+  },
+  {
+    "id": 17,
+    "category": "Prioridad",
+    "difficulty": "Media",
+    "question": "Los vehículos de emergencia tienen prioridad cuando:",
+    "image": "🚑",
+    "options": ["Siempre", "Nunca", "Con sirena y luces", "Solo de noche"],
+    "correctAnswer": "Con sirena y luces"
+  },
+  {
+    "id": 18,
+    "category": "Señales",
+    "difficulty": "Media",
+    "question": "Las señales circulares rojas indican:",
+    "image": "⛔",
+    "options": ["Advertencia", "Prohibición", "Información", "Obligación"],
+    "correctAnswer": "Prohibición"
+  },
+  {
+    "id": 19,
+    "category": "Velocidad",
+    "difficulty": "Media",
+    "question": "Velocidad en zonas escolares:",
+    "image": "🏫",
+    "options": ["20 km/h", "30 km/h", "45 km/h", "60 km/h"],
+    "correctAnswer": "30 km/h"
+  },
+  {
+    "id": 20,
+    "category": "Seguridad",
+    "difficulty": "Fácil",
+    "question": "¿Qué hacer ante una señal de ceda el paso?",
+    "image": "🔻",
+    "options": ["Acelerar", "Detenerse siempre", "Ceder el paso si es necesario", "Ignorar"],
+    "correctAnswer": "Ceder el paso si es necesario"
+  }
+
+]

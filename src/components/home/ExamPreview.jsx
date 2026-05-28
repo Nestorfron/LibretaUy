@@ -23,7 +23,7 @@ export default function ExamPreview() {
         
         {/* Header */}
         <div className="bg-emerald-600 px-6 py-5 text-white">
-          <div className="text-sm opacity-80">Simulacro de examen</div>
+          <div className="text-sm opacity-80">Simulador de examen</div>
           <div className="text-2xl font-bold mt-1">
             Pregunta 7 de 20
           </div>

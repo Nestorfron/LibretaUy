@@ -1,12 +1,14 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 import Navbar from "../components/layout/Navbar";
 import PageContainer from "../components/layout/PageContainer";
 
 export default function Results() {
-  // DEMO
-  const correctAnswers = 16;
-  const totalQuestions = 20;
+  const location = useLocation();
+
+  const correctAnswers = location.state?.score || 0;
+  const totalQuestions = location.state?.total || 0;
+  const answers = location.state?.answers || [];
 
   const percentage = Math.round(
     (correctAnswers / totalQuestions) * 100
@@ -14,118 +16,108 @@ export default function Results() {
 
   const approved = percentage >= 70;
 
+  const getMessage = () => {
+    if (percentage === 100)
+      return { title: "¡Perfecto!", text: "Dominas el examen." };
+    if (percentage >= 85)
+      return { title: "¡Excelente!", text: "Muy buen resultado." };
+    if (percentage >= 70)
+      return { title: "¡Aprobaste!", text: "Listo para el examen." };
+    if (percentage >= 50)
+      return { title: "Vas bien", text: "Estás cerca." };
+
+    return {
+      title: "Seguí practicando",
+      text: "Necesitás mejorar.",
+    };
+  };
+
+  const message = getMessage();
+
   return (
-    <div className="pb-20 md:pb-0 min-h-screen bg-slate-50">
+    <div className="min-h-screen bg-slate-50 pb-20">
       <Navbar />
 
       <PageContainer>
-        <section className="py-10">
-          {/* HEADER */}
-          <div className="text-center max-w-2xl mx-auto">
-            <div
-              className={`w-32 h-32 rounded-full mx-auto flex items-center justify-center text-6xl shadow-xl ${
-                approved
-                  ? "bg-emerald-500 text-white"
-                  : "bg-red-500 text-white"
-              }`}
-            >
-              {approved ? "🎉" : "😢"}
-            </div>
+        <section className="py-10 text-center max-w-2xl mx-auto">
 
-            <h1 className="text-5xl font-black mt-8">
-              {approved
-                ? "¡Aprobaste!"
-                : "Sigue practicando"}
-            </h1>
-
-            <p className="text-slate-600 text-lg mt-4">
-              {approved
-                ? "Excelente trabajo. Ya estás más cerca de obtener tu libreta."
-                : "Continúa practicando para mejorar tus resultados."}
-            </p>
+          {/* ICON */}
+          <div
+            className={`w-32 h-32 mx-auto rounded-full flex items-center justify-center text-6xl shadow-xl ${
+              approved ? "bg-emerald-500" : "bg-red-500"
+            } text-white`}
+          >
+            {percentage >= 85 ? "🔥" : approved ? "🎉" : "😢"}
           </div>
 
-          {/* SCORE */}
-          <div className="grid md:grid-cols-3 gap-6 mt-14">
-            {/* CORRECTAS */}
-            <div className="bg-white rounded-3xl border border-slate-200 p-8 shadow-sm text-center">
-              <div className="text-5xl font-black text-emerald-600">
+          {/* TITLE */}
+          <h1 className="text-5xl font-black mt-6">
+            {message.title}
+          </h1>
+
+          {/* TEXT */}
+          <p className="mt-3 text-slate-600 text-lg">
+            {message.text}
+          </p>
+
+          <p className="text-sm text-slate-500 mt-2">
+            Necesitás al menos 70% para aprobar
+          </p>
+
+          {/* STATS */}
+          <div className="mt-10 grid grid-cols-3 gap-4">
+            <div className="bg-white p-6 rounded-2xl shadow">
+              <div className="text-3xl font-bold text-emerald-600">
                 {correctAnswers}
               </div>
-
-              <div className="text-slate-500 mt-3">
+              <div className="text-sm text-slate-500 mt-1">
                 Correctas
               </div>
             </div>
 
-            {/* INCORRECTAS */}
-            <div className="bg-white rounded-3xl border border-slate-200 p-8 shadow-sm text-center">
-              <div className="text-5xl font-black text-red-500">
+            <div className="bg-white p-6 rounded-2xl shadow">
+              <div className="text-3xl font-bold text-red-500">
                 {totalQuestions - correctAnswers}
               </div>
-
-              <div className="text-slate-500 mt-3">
+              <div className="text-sm text-slate-500 mt-1">
                 Incorrectas
               </div>
             </div>
 
-            {/* PORCENTAJE */}
-            <div className="bg-white rounded-3xl border border-slate-200 p-8 shadow-sm text-center">
-              <div className="text-5xl font-black text-cyan-600">
+            <div className="bg-white p-6 rounded-2xl shadow">
+              <div className="text-3xl font-bold text-cyan-600">
                 {percentage}%
               </div>
-
-              <div className="text-slate-500 mt-3">
+              <div className="text-sm text-slate-500 mt-1">
                 Resultado
               </div>
             </div>
           </div>
 
-          {/* PROGRESS */}
-          <div className="mt-10 bg-white rounded-3xl border border-slate-200 p-8 shadow-sm">
-            <div className="flex items-center justify-between mb-4">
-              <span className="font-semibold">
-                Rendimiento
-              </span>
-
-              <span className="text-slate-500 text-sm">
-                {percentage}%
-              </span>
-            </div>
-
-            <div className="w-full h-5 rounded-full bg-slate-200 overflow-hidden">
-              <div
-                className={`h-full rounded-full ${
-                  approved
-                    ? "bg-emerald-500"
-                    : "bg-red-500"
-                }`}
-                style={{
-                  width: `${percentage}%`,
-                }}
-              />
-            </div>
-          </div>
-
           {/* ACTIONS */}
-          <div className="grid sm:grid-cols-2 gap-4 mt-10">
+          <div className="mt-10 grid gap-4">
+
             <Link
               to="/quiz"
-              className="bg-emerald-600 hover:bg-emerald-700 text-white text-center py-5 rounded-2xl font-bold transition"
+              className="bg-emerald-600 hover:bg-emerald-700 text-white py-5 rounded-2xl font-bold transition"
             >
-              Repetir simulacro
+              Repetir simulador
             </Link>
 
-            <Link
-              to="/"
-              className="border border-slate-300 hover:bg-slate-100 text-center py-5 rounded-2xl font-bold transition"
-            >
-              Volver al inicio
-            </Link>
+            {answers.length > 0 && (
+              <Link
+                to="/review"
+                state={answers}
+                className="bg-slate-900 hover:bg-black text-white py-5 rounded-2xl font-bold transition"
+              >
+                Revisar examen
+              </Link>
+            )}
+
           </div>
+
         </section>
       </PageContainer>
-
     </div>
   );
 }

@@ -2,7 +2,7 @@ export default function QuizHeader({ current, total }) {
     return (
       <div className="flex items-center justify-between gap-4 mb-8">
         <div>
-          <h1 className="text-4xl font-black">Simulacro 🚗</h1>
+          <h1 className="text-4xl font-black">Simulador 🚗</h1>
           <p className="text-slate-600 mt-2">
             Practica para tu examen teórico.
           </p>

@@ -4,7 +4,7 @@ export default function ResultCard({ score, total, onRestart }) {
         <h2 className="text-3xl font-black mb-2">Resultado 🚗</h2>
   
         <p className="text-slate-600 mb-6">
-          Completaste el simulacro
+          Completaste el Simulador
         </p>
   
         <div className="text-5xl font-black text-emerald-600 mb-6">

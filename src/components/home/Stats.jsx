@@ -1,7 +1,7 @@
 export default function Stats() {
     const stats = [
       { label: "Preguntas", value: "+1200" },
-      { label: "Simulacros", value: "24/7" },
+      { label: "Simuladors", value: "24/7" },
       { label: "Aprobados", value: "+15K" },
     ];
   

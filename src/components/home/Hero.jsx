@@ -19,7 +19,7 @@ export default function Hero() {
             </h1>
 
             <p className="mt-6 text-lg text-slate-600 leading-relaxed max-w-xl">
-              Aprende con preguntas reales, simulacros y señales de tránsito.
+              Aprende con preguntas reales, Simuladors y señales de tránsito.
               Prepárate para aprobar tu licencia de conducir en Uruguay.
             </p>
 
@@ -30,7 +30,7 @@ export default function Hero() {
               >
                 Ver Simulador
               </Link>
-              
+
             </div>
 
             <Stats />

@@ -8,6 +8,7 @@ import Signals from "./pages/Signals";
 import Profile from "./pages/Profile";
 import Results from "./pages/Results";
 import Document from "./pages/Documents";
+import ReviewErrors from "./pages/ReviewErrors";
 
 function App() {
   const [updateAvailable, setUpdateAvailable] = useState(false);
@@ -44,6 +45,7 @@ function App() {
         <Route path="/profile" element={<Profile />} />
         <Route path="/results" element={<Results />} />
         <Route path="/documents" element={<Document />} />
+        <Route path="/review" element={<ReviewErrors />} />
       </Routes>
 
       {updateAvailable && (
