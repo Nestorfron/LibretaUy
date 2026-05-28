@@ -1,611 +1,652 @@
 
 [
-  {
-    "id": "r1",
-    "tipo": "senal",
-    "nombre": "pare",
-    "titulo": "Pare",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r1_pare.png"
-  },
-  {
-    "id": "r2",
-    "tipo": "senal",
-    "nombre": "ceda_el_paso",
-    "titulo": "Ceda el paso",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r2_ceda_el_paso.png"
-  },
-  {
-    "id": "r0",
-    "tipo": "senal",
-    "nombre": "contramano",
-    "titulo": "Contramano",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r0_contramano.png"
-  },
-  {
-    "id": "r3",
-    "tipo": "senal",
-    "nombre": "direccion_prohibida",
-    "titulo": "Dirección prohibida",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r3_direccion_prohibida.png"
-  },
-  {
-    "id": "r4a",
-    "tipo": "senal",
-    "nombre": "prohibido_girar_izquierda",
-    "titulo": "Prohibido girar a la izquierda",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r4a_prohibido_girar_a_la_izquierda.png"
-  },
-  {
-    "id": "r4b",
-    "tipo": "senal",
-    "nombre": "prohibido_girar_derecha",
-    "titulo": "Prohibido girar a la derecha",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r4b_prohibido_girar_derecha.png"
-  },
-  {
-    "id": "r5",
-    "tipo": "senal",
-    "nombre": "prohibido_girar_u",
-    "titulo": "Prohibido girar en U",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r5_prohibido_girar_en_u.png"
-  },
-  {
-    "id": "r6a",
-    "tipo": "senal",
-    "nombre": "prohibido_estacionar",
-    "titulo": "Prohibido estacionar",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r6a_prohibido_estacionar.png"
-  },
-  {
-    "id": "r6c",
-    "tipo": "senal",
-    "nombre": "prohibido_estacionar_y_detenerse",
-    "titulo": "Prohibido estacionar y detenerse",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r6c_prohibido_estacionamiento_y_detencion.png"
-  },
-  {
-    "id": "r7",
-    "tipo": "senal",
-    "nombre": "prohibido_adelantar",
-    "titulo": "Prohibido adelantar",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r7_prohibido_adelantar.png"
-  },
-  {
-    "id": "r8",
-    "tipo": "senal",
-    "nombre": "prohibido_cambio_carril",
-    "titulo": "Prohibido cambio de carril",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r8_prohibido_cambio_carril.png"
-  },
-  {
-    "id": "r9",
-    "tipo": "senal",
-    "nombre": "prohibido_vehiculos_carga",
-    "titulo": "Prohibido vehículos de carga",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r9_prohibido_paso_de_vehiculos_de_carga.png"
-  },
-  {
-    "id": "r10",
-    "tipo": "senal",
-    "nombre": "prohibido_vehiculos",
-    "titulo": "Prohibido vehículos automotores",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r10_prohibido_paso_vehiculos_automotores.png"
-  },
-  {
-    "id": "r11",
-    "tipo": "senal",
-    "nombre": "prohibido_traccion_sangre",
-    "titulo": "Prohibido tracción a sangre",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r11_prohibido_paso_carretas_de_traccion_a_sangre.png"
-  },
-  {
-    "id": "r12",
-    "tipo": "senal",
-    "nombre": "prohibido_bicicletas",
-    "titulo": "Prohibido bicicletas",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r12_prohibido_paso_de_bicicletas.png"
-  },
-  {
-    "id": "r13",
-    "tipo": "senal",
-    "nombre": "prohibido_maquinaria_agricola",
-    "titulo": "Prohibido maquinaria agrícola",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r13_prohibido_paso_de_maquinaria_agricola.png"
-  },
-  {
-    "id": "r14",
-    "tipo": "senal",
-    "nombre": "carga_maxima",
-    "titulo": "Carga máxima permitida",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r14_carga_maxima_permitida.png"
-  },
-  {
-    "id": "r15",
-    "tipo": "senal",
-    "nombre": "altura_maxima",
-    "titulo": "Altura máxima",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r15_altura_maxima_permitida.png"
-  },
-  {
-    "id": "r16",
-    "tipo": "senal",
-    "nombre": "ancho_maximo",
-    "titulo": "Ancho máximo",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r16_ancho_maximo_permitido.png"
-  },
-  {
-    "id": "r17",
-    "tipo": "senal",
-    "nombre": "peso_maximo",
-    "titulo": "Peso máximo por eje",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r17_peso_maximo_permitido_por_eje.png"
-  },
-  {
-    "id": "r18",
-    "tipo": "senal",
-    "nombre": "longitud_maxima",
-    "titulo": "Longitud máxima",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r18_longitud_maxima_permitida.png"
-  },
-  {
-    "id": "r19",
-    "tipo": "senal",
-    "nombre": "velocidad_maxima",
-    "titulo": "Velocidad máxima",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r19_velocidad_maxima_permitida.png"
-  },
-  {
-    "id": "r20",
-    "tipo": "senal",
-    "nombre": "silencio",
-    "titulo": "Silencio",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r20_silencio.png"
-  },
-  {
-    "id": "r21",
-    "tipo": "senal",
-    "nombre": "aduana",
-    "titulo": "Aduana",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r21_aduana.png"
-  },
-  {
-    "id": "r21a",
-    "tipo": "senal",
-    "nombre": "inspeccion",
-    "titulo": "Inspección",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r21a_inspeccion_oficial.png"
-  },
-  {
-    "id": "r22",
-    "tipo": "senal",
-    "nombre": "uso_cadenas",
-    "titulo": "Uso obligatorio de cadenas",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r22_uso_obligatorio_cadenas.png"
-  },
-  {
-    "id": "r23",
-    "tipo": "senal",
-    "nombre": "conserve_derecha",
-    "titulo": "Conserve su derecha",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r23_conserve_su_derecha.png"
-  },
-  {
-    "id": "r24a",
-    "tipo": "senal",
-    "nombre": "circulacion_obligatoria",
-    "titulo": "Circulación obligatoria",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r24a_circulacion_obligatoria.png"
-  },
-  {
-    "id": "r25a",
-    "tipo": "senal",
-    "nombre": "giro_izquierda",
-    "titulo": "Giro izquierda obligatorio",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r25a_giro_a_la_izquierda_solamente.png"
-  },
-  {
-    "id": "r25b",
-    "tipo": "senal",
-    "nombre": "giro_derecha",
-    "titulo": "Giro derecha obligatorio",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r25b_giro_a_la_derecha_solamente.png"
-  },
-  {
-    "id": "r26",
-    "tipo": "senal",
-    "nombre": "siga_frente",
-    "titulo": "Siga de frente",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r26_siga_de_frente.png"
-  },
-  {
-    "id": "r27",
-    "tipo": "senal",
-    "nombre": "transito_pesado",
-    "titulo": "Tránsito pesado",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r27_transito_pesado_canal_derecho.png"
-  },
-  {
-    "id": "r28",
-    "tipo": "senal",
-    "nombre": "doble_via",
-    "titulo": "Doble vía próxima",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r28_doble_via_proxima.png"
-  },
-  {
-    "id": "r29",
-    "tipo": "senal",
-    "nombre": "prohibido_peatones",
-    "titulo": "Prohibido peatones",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r29_prohibido_paso_de_peatones.png"
-  },
-  {
-    "id": "r30",
-    "tipo": "senal",
-    "nombre": "peatones_izquierda",
-    "titulo": "Peatones por izquierda",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r30_peatones_debe_caminar_por_izquierda.png"
-  },
-  {
-    "id": "r31",
-    "tipo": "senal",
-    "nombre": "luces_encendidas",
-    "titulo": "Luces encendidas",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r31_luces_encendidas.png"
-  },
-  {
-    "id": "r32",
-    "tipo": "senal",
-    "nombre": "cinturon",
-    "titulo": "Uso obligatorio cinturón",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r32_uso_obligatorio_de_cinturon.png"
-  },
-  {
-    "id": "r33",
-    "tipo": "senal",
-    "nombre": "prohibido_ganado",
-    "titulo": "Prohibido tránsito de ganado",
-    "categoria": "regulatory",
-    "ruta": "signals/regulatory/r33_prohibido_el_transito_ganado.png"
-  },
-  {
-    "id": "p1a",
-    "tipo": "senal",
-    "nombre": "curva_pronunciada_izquierda",
-    "titulo": "Curva pronunciada a la izquierda",
-    "categoria": "warning",
-    "ruta": "signals/warning/p1a_curva_pronunciada_izquierda.png"
-  },
-  {
-    "id": "p1b",
-    "tipo": "senal",
-    "nombre": "curva_pronunciada_derecha",
-    "titulo": "Curva pronunciada a la derecha",
-    "categoria": "warning",
-    "ruta": "signals/warning/p1b_curva_pronunciada_derecha.png"
-  },
-
-  {
-    "id": "p2a",
-    "tipo": "senal",
-    "nombre": "curva_peligrosa_izquierda",
-    "titulo": "Curva peligrosa a la izquierda",
-    "categoria": "warning",
-    "ruta": "signals/warning/p2a_curva_peligrosa_izquierda.png"
-  },
-  {
-    "id": "p2b",
-    "tipo": "senal",
-    "nombre": "curva_peligrosa_derecha",
-    "titulo": "Curva peligrosa a la derecha",
-    "categoria": "warning",
-    "ruta": "signals/warning/p2b_curva_peligrosa_derecha.png"
-  },
-
-  {
-    "id": "p3a",
-    "tipo": "senal",
-    "nombre": "camino_sinuoso_izquierda",
-    "titulo": "Camino sinuoso a la izquierda",
-    "categoria": "warning",
-    "ruta": "signals/warning/p3a_camino_sinuoso_izquierda.png"
-  },
-  {
-    "id": "p3b",
-    "tipo": "senal",
-    "nombre": "camino_sinuoso_derecha",
-    "titulo": "Camino sinuoso a la derecha",
-    "categoria": "warning",
-    "ruta": "signals/warning/p3b_camino_sinuoso_derecha.png"
-  },
-
-  {
-    "id": "p4a",
-    "tipo": "senal",
-    "nombre": "curva_s_izquierda",
-    "titulo": "Curva en S hacia la izquierda",
-    "categoria": "warning",
-    "ruta": "signals/warning/p4a_curva_pronunciada_en_s_por_izquierda.png"
-  },
-  {
-    "id": "p4b",
-    "tipo": "senal",
-    "nombre": "curva_s_derecha",
-    "titulo": "Curva en S hacia la derecha",
-    "categoria": "warning",
-    "ruta": "signals/warning/p4b_curva_pronunciada_en_s_por_derecha.png"
-  },
-
-  {
-    "id": "p5a",
-    "tipo": "senal",
-    "nombre": "contracurva_derecha",
-    "titulo": "Curva y contracurva derecha",
-    "categoria": "warning",
-    "ruta": "signals/warning/p5a_curva_contracurva_derecha.png"
-  },
-  {
-    "id": "p5b",
-    "tipo": "senal",
-    "nombre": "contracurva_izquierda",
-    "titulo": "Curva y contracurva izquierda",
-    "categoria": "warning",
-    "ruta": "signals/warning/p5b_curva_contracurva_izquierda.png"
-  },
-
-  {
-    "id": "p6",
-    "tipo": "senal",
-    "nombre": "interseccion_vias",
-    "titulo": "Intersección de vías",
-    "categoria": "warning",
-    "ruta": "signals/warning/p6_interseccion_vias.png"
-  },
-
-  {
-    "id": "p7a",
-    "tipo": "senal",
-    "nombre": "via_lateral_izquierda",
-    "titulo": "Vía lateral izquierda",
-    "categoria": "warning",
-    "ruta": "signals/warning/p7a_via_lateral.png"
-  },
-  {
-    "id": "p7b",
-    "tipo": "senal",
-    "nombre": "via_lateral_derecha",
-    "titulo": "Vía lateral derecha",
-    "categoria": "warning",
-    "ruta": "signals/warning/p7b_via_lateral.png"
-  },
-
-  {
-    "id": "p8",
-    "tipo": "senal",
-    "nombre": "bifurcacion_t",
-    "titulo": "Bifurcación en T",
-    "categoria": "warning",
-    "ruta": "signals/warning/p8_bif_en_t.png"
-  },
-  {
-    "id": "p9",
-    "tipo": "senal",
-    "nombre": "bifurcacion_y",
-    "titulo": "Bifurcación en Y",
-    "categoria": "warning",
-    "ruta": "signals/warning/p9_bif.png"
-  },
-
-  {
-    "id": "p12",
-    "tipo": "senal",
-    "nombre": "rotonda",
-    "titulo": "Rotonda",
-    "categoria": "warning",
-    "ruta": "signals/warning/p12_rotonda.png"
-  },
-
-  {
-    "id": "p14",
-    "tipo": "senal",
-    "nombre": "proximidad_semaforos",
-    "titulo": "Proximidad de semáforos",
-    "categoria": "warning",
-    "ruta": "signals/warning/p14_proximidad_semaforos.png"
-  },
-  {
-    "id": "p15",
-    "tipo": "senal",
-    "nombre": "proximidad_pare",
-    "titulo": "Proximidad de señal PARE",
-    "categoria": "warning",
-    "ruta": "signals/warning/p15_proximidad_pare.png"
-  },
-
-  {
-    "id": "p17",
-    "tipo": "senal",
-    "nombre": "camino_aspero",
-    "titulo": "Camino áspero",
-    "categoria": "warning",
-    "ruta": "signals/warning/p17_camino_aspero.png"
-  },
-  {
-    "id": "p18",
-    "tipo": "senal",
-    "nombre": "resalto",
-    "titulo": "Resalto",
-    "categoria": "warning",
-    "ruta": "signals/warning/p18_resalto.png"
-  },
-  {
-    "id": "p19",
-    "tipo": "senal",
-    "nombre": "depresion",
-    "titulo": "Depresión",
-    "categoria": "warning",
-    "ruta": "signals/warning/p19_depresion.png"
-  },
-
-  {
-    "id": "p24",
-    "tipo": "senal",
-    "nombre": "obras",
-    "titulo": "Obras en la vía",
-    "categoria": "warning",
-    "ruta": "signals/warning/p24_obras.png"
-  },
-
-  {
-    "id": "p25",
-    "tipo": "senal",
-    "nombre": "doble_circulacion",
-    "titulo": "Doble circulación",
-    "categoria": "warning",
-    "ruta": "signals/warning/p25_doble_circulacion.png"
-  },
-
-  {
-    "id": "p27",
-    "tipo": "senal",
-    "nombre": "calzada_resbaladiza",
-    "titulo": "Calzada resbaladiza",
-    "categoria": "warning",
-    "ruta": "signals/warning/p27_calzada_resbaladiza.png"
-  },
-
-  {
-    "id": "p31",
-    "tipo": "senal",
-    "nombre": "cruce_peatones",
-    "titulo": "Cruce de peatones",
-    "categoria": "warning",
-    "ruta": "signals/warning/p31_cruce_de_peatones.png"
-  },
-
-  {
-    "id": "p32",
-    "tipo": "senal",
-    "nombre": "zona_escolar",
-    "titulo": "Zona escolar",
-    "categoria": "warning",
-    "ruta": "signals/warning/p32_zona_escolar.png"
-  },
-  {
-    "id": "i1",
-    "tipo": "senal",
-    "nombre": "inicio_jurisdiccion_nacional",
-    "titulo": "Inicio jurisdicción nacional",
-    "categoria": "informative",
-    "ruta": "signals/informative/inicio_jurisdiccion_nacional.png"
-  },
-  {
-    "id": "i2",
-    "tipo": "senal",
-    "nombre": "informacion_general",
-    "titulo": "Información general",
-    "categoria": "informative",
-    "ruta": "signals/informative/informacion_general.png"
-  },
-  {
-    "id": "i3",
-    "tipo": "senal",
-    "nombre": "via_ciclista",
-    "titulo": "Vía ciclista",
-    "categoria": "informative",
-    "ruta": "signals/informative/via_ciclista.png"
-  },
-  {
-    "id": "i4",
-    "tipo": "senal",
-    "nombre": "restaurante",
-    "titulo": "Restaurante",
-    "categoria": "informative",
-    "ruta": "signals/informative/restaurante.png"
-  },
-  {
-    "id": "i5",
-    "tipo": "senal",
-    "nombre": "hospital",
-    "titulo": "Hospital",
-    "categoria": "informative",
-    "ruta": "signals/informative/hospital.png"
-  },
-  {
-    "id": "i6",
-    "tipo": "senal",
-    "nombre": "gasolinera",
-    "titulo": "Gasolinera",
-    "categoria": "informative",
-    "ruta": "signals/informative/gasolinera.png"
-  },
-  {
-    "id": "i7",
-    "tipo": "senal",
-    "nombre": "estacionamiento_tarifado",
-    "titulo": "Estacionamiento tarifado",
-    "categoria": "informative",
-    "ruta": "signals/informative/estacionamiento_tarifado.png"
-  },
-  {
-    "id": "i8",
-    "tipo": "senal",
-    "nombre": "estacionamiento_reservado",
-    "titulo": "Estacionamiento reservado",
-    "categoria": "informative",
-    "ruta": "signals/informative/estacionamiento_reservado.png"
-  },
-  {
-    "id": "i9",
-    "tipo": "senal",
-    "nombre": "estacionamiento_exclusivo_motos",
-    "titulo": "Estacionamiento exclusivo motos",
-    "categoria": "informative",
-    "ruta": "signals/informative/estacionamiento_exclusivo_motos.png"
-  },
-  {
-    "id": "i10",
-    "tipo": "senal",
-    "nombre": "direccion",
-    "titulo": "Dirección",
-    "categoria": "informative",
-    "ruta": "signals/informative/direccion.png"
-  }
-]
+    {
+      "id": "r1",
+      "tipo": "senal",
+      "nombre": "pare",
+      "titulo": "Pare",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r1_pare.png",
+      "descripcion": "Obliga a detener completamente el vehículo antes de la intersección."
+    },
+    {
+      "id": "r2",
+      "tipo": "senal",
+      "nombre": "ceda_el_paso",
+      "titulo": "Ceda el paso",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r2_ceda_el_paso.png",
+      "descripcion": "Obliga a reducir la velocidad y ceder el paso a otros vehículos sin detenerse si no es necesario."
+    },
+    {
+      "id": "r0",
+      "tipo": "senal",
+      "nombre": "contramano",
+      "titulo": "Contramano",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r0_contramano.png",
+      "descripcion": "Indica que no se puede circular en ese sentido porque es dirección contraria."
+    },
+    {
+      "id": "r3",
+      "tipo": "senal",
+      "nombre": "direccion_prohibida",
+      "titulo": "Dirección prohibida",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r3_direccion_prohibida.png",
+      "descripcion": "Prohíbe el ingreso a la vía desde ese punto."
+    },
+    {
+      "id": "r4a",
+      "tipo": "senal",
+      "nombre": "prohibido_girar_izquierda",
+      "titulo": "Prohibido girar a la izquierda",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r4a_prohibido_girar_a_la_izquierda.png",
+      "descripcion": "Prohíbe girar hacia la izquierda en la intersección."
+    },
+    {
+      "id": "r4b",
+      "tipo": "senal",
+      "nombre": "prohibido_girar_derecha",
+      "titulo": "Prohibido girar a la derecha",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r4b_prohibido_girar_derecha.png",
+      "descripcion": "Prohíbe girar hacia la derecha en la intersección."
+    },
+    {
+      "id": "r5",
+      "tipo": "senal",
+      "nombre": "prohibido_girar_u",
+      "titulo": "Prohibido girar en U",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r5_prohibido_girar_en_u.png",
+      "descripcion": "Prohíbe realizar giros en U o retornos."
+    },
+    {
+      "id": "r6a",
+      "tipo": "senal",
+      "nombre": "prohibido_estacionar",
+      "titulo": "Prohibido estacionar",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r6a_prohibido_estacionar.png",
+      "descripcion": "Prohíbe estacionar vehículos en el tramo indicado."
+    },
+    {
+      "id": "r6c",
+      "tipo": "senal",
+      "nombre": "prohibido_estacionar_y_detenerse",
+      "titulo": "Prohibido estacionar y detenerse",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r6c_prohibido_estacionamiento_y_detencion.png",
+      "descripcion": "Prohíbe detener o estacionar el vehículo en esa zona."
+    },
+    {
+      "id": "r7",
+      "tipo": "senal",
+      "nombre": "prohibido_adelantar",
+      "titulo": "Prohibido adelantar",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r7_prohibido_adelantar.png",
+      "descripcion": "Prohíbe adelantar o sobrepasar otros vehículos."
+    },
+    {
+      "id": "r8",
+      "tipo": "senal",
+      "nombre": "prohibido_cambio_carril",
+      "titulo": "Prohibido cambio de carril",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r8_prohibido_cambio_carril.png",
+      "descripcion": "Prohíbe cambiar de carril en el tramo indicado."
+    },
+    {
+      "id": "r9",
+      "tipo": "senal",
+      "nombre": "prohibido_vehiculos_carga",
+      "titulo": "Prohibido vehículos de carga",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r9_prohibido_paso_de_vehiculos_de_carga.png",
+      "descripcion": "Restringe el paso de vehículos de carga pesada."
+    },
+    {
+      "id": "r10",
+      "tipo": "senal",
+      "nombre": "prohibido_vehiculos",
+      "titulo": "Prohibido vehículos automotores",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r10_prohibido_paso_vehiculos_automotores.png",
+      "descripcion": "Prohíbe el tránsito de vehículos motorizados."
+    },
+    {
+      "id": "r11",
+      "tipo": "senal",
+      "nombre": "prohibido_traccion_sangre",
+      "titulo": "Prohibido tracción a sangre",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r11_prohibido_paso_carretas_de_traccion_a_sangre.png",
+      "descripcion": "Prohíbe vehículos impulsados por animales."
+    },
+    {
+      "id": "r12",
+      "tipo": "senal",
+      "nombre": "prohibido_bicicletas",
+      "titulo": "Prohibido bicicletas",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r12_prohibido_paso_de_bicicletas.png",
+      "descripcion": "Prohíbe el tránsito de bicicletas."
+    },
+    {
+      "id": "r13",
+      "tipo": "senal",
+      "nombre": "prohibido_maquinaria_agricola",
+      "titulo": "Prohibido maquinaria agrícola",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r13_prohibido_paso_de_maquinaria_agricola.png",
+      "descripcion": "Restringe el paso de maquinaria agrícola."
+    },
+    {
+      "id": "r14",
+      "tipo": "senal",
+      "nombre": "carga_maxima",
+      "titulo": "Carga máxima permitida",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r14_carga_maxima_permitida.png",
+      "descripcion": "Indica el peso máximo permitido para circular."
+    },
+    {
+      "id": "r15",
+      "tipo": "senal",
+      "nombre": "altura_maxima",
+      "titulo": "Altura máxima",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r15_altura_maxima_permitida.png",
+      "descripcion": "Limita la altura máxima de los vehículos."
+    },
+    {
+      "id": "r16",
+      "tipo": "senal",
+      "nombre": "ancho_maximo",
+      "titulo": "Ancho máximo",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r16_ancho_maximo_permitido.png",
+      "descripcion": "Limita el ancho máximo permitido."
+    },
+    {
+      "id": "r17",
+      "tipo": "senal",
+      "nombre": "peso_maximo",
+      "titulo": "Peso máximo por eje",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r17_peso_maximo_permitido_por_eje.png",
+      "descripcion": "Limita el peso máximo permitido por eje del vehículo."
+    },
+    {
+      "id": "r19",
+      "tipo": "senal",
+      "nombre": "velocidad_maxima",
+      "titulo": "Velocidad máxima",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r19_velocidad_maxima_permitida.png",
+      "descripcion": "Establece el límite máximo de velocidad permitido."
+    },
+    {
+      "id": "r20",
+      "tipo": "senal",
+      "nombre": "silencio",
+      "titulo": "Silencio",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r20_silencio.png",
+      "descripcion": "Zona donde se debe evitar el uso de bocina o ruido excesivo."
+    },
+    {
+      "id": "r21",
+      "tipo": "senal",
+      "nombre": "aduana",
+      "titulo": "Aduana",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r21_aduana.png",
+      "descripcion": "Puesto de control aduanero obligatorio."
+    },
+    {
+      "id": "r21a",
+      "tipo": "senal",
+      "nombre": "inspeccion",
+      "titulo": "Inspección",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r21a_inspeccion_oficial.png",
+      "descripcion": "Indica inspección o control obligatorio."
+    },
+    {
+      "id": "r22",
+      "tipo": "senal",
+      "nombre": "uso_cadenas",
+      "titulo": "Uso obligatorio de cadenas",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r22_uso_obligatorio_cadenas.png",
+      "descripcion": "Obliga al uso de cadenas en condiciones climáticas adversas."
+    },
+    {
+      "id": "r23",
+      "tipo": "senal",
+      "nombre": "conserve_derecha",
+      "titulo": "Conserve su derecha",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r23_conserve_su_derecha.png",
+      "descripcion": "Obliga a circular por el lado derecho de la vía."
+    },
+    {
+      "id": "r24a",
+      "tipo": "senal",
+      "nombre": "circulacion_obligatoria",
+      "titulo": "Circulación obligatoria",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r24a_circulacion_obligatoria.png",
+      "descripcion": "Indica el sentido obligatorio de circulación."
+    },
+    {
+      "id": "r25a",
+      "tipo": "senal",
+      "nombre": "giro_izquierda",
+      "titulo": "Giro izquierda obligatorio",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r25a_giro_a_la_izquierda_solamente.png",
+      "descripcion": "Obliga a girar únicamente hacia la izquierda."
+    },
+    {
+      "id": "r25b",
+      "tipo": "senal",
+      "nombre": "giro_derecha",
+      "titulo": "Giro derecha obligatorio",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r25b_giro_a_la_derecha_solamente.png",
+      "descripcion": "Obliga a girar únicamente hacia la derecha."
+    },
+    {
+      "id": "r26",
+      "tipo": "senal",
+      "nombre": "siga_frente",
+      "titulo": "Siga de frente",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r26_siga_de_frente.png",
+      "descripcion": "Indica continuar recto obligatoriamente."
+    },
+    {
+      "id": "r27",
+      "tipo": "senal",
+      "nombre": "transito_pesado",
+      "titulo": "Tránsito pesado",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r27_transito_pesado_canal_derecho.png",
+      "descripcion": "Indica carril exclusivo para tránsito pesado."
+    },
+    {
+      "id": "r28",
+      "tipo": "senal",
+      "nombre": "doble_via",
+      "titulo": "Doble vía próxima",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r28_doble_via_proxima.png",
+      "descripcion": "Advierte el inicio de una vía de doble sentido."
+    },
+    {
+      "id": "r29",
+      "tipo": "senal",
+      "nombre": "prohibido_peatones",
+      "titulo": "Prohibido peatones",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r29_prohibido_paso_de_peatones.png",
+      "descripcion": "Prohíbe el tránsito de peatones en la vía."
+    },
+    {
+      "id": "r30",
+      "tipo": "senal",
+      "nombre": "peatones_izquierda",
+      "titulo": "Peatones por izquierda",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r30_peatones_debe_caminar_por_izquierda.png",
+      "descripcion": "Indica que los peatones deben circular por la izquierda."
+    },
+    {
+      "id": "r31",
+      "tipo": "senal",
+      "nombre": "luces_encendidas",
+      "titulo": "Luces encendidas",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r31_luces_encendidas.png",
+      "descripcion": "Obliga a circular con luces encendidas siempre."
+    },
+    {
+      "id": "r32",
+      "tipo": "senal",
+      "nombre": "cinturon",
+      "titulo": "Uso obligatorio cinturón",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r32_uso_obligatorio_de_cinturon.png",
+      "descripcion": "Obliga al uso del cinturón de seguridad."
+    },
+    {
+      "id": "r33",
+      "tipo": "senal",
+      "nombre": "prohibido_ganado",
+      "titulo": "Prohibido tránsito de ganado",
+      "categoria": "regulatory",
+      "ruta": "signals/regulatory/r33_prohibido_el_transito_ganado.png",
+      "descripcion": "Prohíbe el paso de animales de ganado en la vía."
+    },
+      {
+          "id": "p1a",
+          "tipo": "senal",
+          "nombre": "curva_pronunciada_izquierda",
+          "titulo": "Curva pronunciada a la izquierda",
+          "categoria": "warning",
+          "ruta": "signals/warning/p1a_curva_pronunciada_izquierda.png",
+          "descripcion": "Advierte una curva cerrada hacia la izquierda que requiere reducir la velocidad."
+        },
+        {
+          "id": "p1b",
+          "tipo": "senal",
+          "nombre": "curva_pronunciada_derecha",
+          "titulo": "Curva pronunciada a la derecha",
+          "categoria": "warning",
+          "ruta": "signals/warning/p1b_curva_pronunciada_derecha.png",
+          "descripcion": "Advierte una curva cerrada hacia la derecha que requiere precaución."
+        },
+        {
+          "id": "p2a",
+          "tipo": "senal",
+          "nombre": "curva_peligrosa_izquierda",
+          "titulo": "Curva peligrosa a la izquierda",
+          "categoria": "warning",
+          "ruta": "signals/warning/p2a_curva_peligrosa_izquierda.png",
+          "descripcion": "Indica una curva peligrosa hacia la izquierda por su radio o visibilidad reducida."
+        },
+        {
+          "id": "p2b",
+          "tipo": "senal",
+          "nombre": "curva_peligrosa_derecha",
+          "titulo": "Curva peligrosa a la derecha",
+          "categoria": "warning",
+          "ruta": "signals/warning/p2b_curva_peligrosa_derecha.png",
+          "descripcion": "Indica una curva peligrosa hacia la derecha por condiciones de la vía."
+        },
+        {
+          "id": "p3a",
+          "tipo": "senal",
+          "nombre": "camino_sinuoso_izquierda",
+          "titulo": "Camino sinuoso a la izquierda",
+          "categoria": "warning",
+          "ruta": "signals/warning/p3a_camino_sinuoso_izquierda.png",
+          "descripcion": "Advierte un tramo con varias curvas consecutivas hacia la izquierda."
+        },
+        {
+          "id": "p4a",
+          "tipo": "senal",
+          "nombre": "curva_s_izquierda",
+          "titulo": "Curva en S hacia la izquierda",
+          "categoria": "warning",
+          "ruta": "signals/warning/p4a_curva_pronunciada_en_s_por_izquierda.png",
+          "descripcion": "Advierte una doble curva en forma de S comenzando hacia la izquierda."
+        },
+        {
+          "id": "p4b",
+          "tipo": "senal",
+          "nombre": "curva_s_derecha",
+          "titulo": "Curva en S hacia la derecha",
+          "categoria": "warning",
+          "ruta": "signals/warning/p4b_curva_pronunciada_en_s_por_derecha.png",
+          "descripcion": "Advierte una doble curva en forma de S comenzando hacia la derecha."
+        },
+        {
+          "id": "p5a",
+          "tipo": "senal",
+          "nombre": "contracurva_derecha",
+          "titulo": "Curva y contracurva derecha",
+          "categoria": "warning",
+          "ruta": "signals/warning/p5a_curva_contracurva_derecha.png",
+          "descripcion": "Advierte dos curvas seguidas en sentidos opuestos hacia la derecha."
+        },
+        {
+          "id": "p5b",
+          "tipo": "senal",
+          "nombre": "contracurva_izquierda",
+          "titulo": "Curva y contracurva izquierda",
+          "categoria": "warning",
+          "ruta": "signals/warning/p5b_curva_contracurva_izquierda.png",
+          "descripcion": "Advierte dos curvas seguidas en sentidos opuestos hacia la izquierda."
+        },
+        {
+          "id": "p6",
+          "tipo": "senal",
+          "nombre": "interseccion_vias",
+          "titulo": "Intersección de vías",
+          "categoria": "warning",
+          "ruta": "signals/warning/p6_interseccion_vias.png",
+          "descripcion": "Indica la proximidad de una intersección entre dos o más vías."
+        },
+        {
+          "id": "p7a",
+          "tipo": "senal",
+          "nombre": "via_lateral_izquierda",
+          "titulo": "Vía lateral izquierda",
+          "categoria": "warning",
+          "ruta": "signals/warning/p7a_via_lateral.png",
+          "descripcion": "Advierte el ingreso de una vía secundaria desde la izquierda."
+        },
+        {
+          "id": "p7b",
+          "tipo": "senal",
+          "nombre": "via_lateral_derecha",
+          "titulo": "Vía lateral derecha",
+          "categoria": "warning",
+          "ruta": "signals/warning/p7b_via_lateral.png",
+          "descripcion": "Advierte el ingreso de una vía secundaria desde la derecha."
+        },
+        {
+          "id": "p8",
+          "tipo": "senal",
+          "nombre": "bifurcacion_t",
+          "titulo": "Bifurcación en T",
+          "categoria": "warning",
+          "ruta": "signals/warning/p8_bif_en_t.png",
+          "descripcion": "Indica que la vía termina en una intersección en forma de T."
+        },
+        {
+          "id": "p9",
+          "tipo": "senal",
+          "nombre": "bifurcacion_y",
+          "titulo": "Bifurcación en Y",
+          "categoria": "warning",
+          "ruta": "signals/warning/p9_bif.png",
+          "descripcion": "Indica división de la vía en dos ramales tipo Y."
+        },
+        {
+          "id": "p12",
+          "tipo": "senal",
+          "nombre": "rotonda",
+          "titulo": "Rotonda",
+          "categoria": "warning",
+          "ruta": "signals/warning/p12_rotonda.png",
+          "descripcion": "Advierte la proximidad de una rotonda o cruce circular."
+        },
+        {
+          "id": "p14",
+          "tipo": "senal",
+          "nombre": "proximidad_semaforos",
+          "titulo": "Proximidad de semáforos",
+          "categoria": "warning",
+          "ruta": "signals/warning/p14_proximidad_semaforos.png",
+          "descripcion": "Indica que se aproxima un cruce regulado por semáforos."
+        },
+        {
+          "id": "p15",
+          "tipo": "senal",
+          "nombre": "proximidad_pare",
+          "titulo": "Proximidad de señal PARE",
+          "categoria": "warning",
+          "ruta": "signals/warning/p15_proximidad_pare.png",
+          "descripcion": "Advierte que se aproxima una señal de detención obligatoria."
+        },
+        {
+          "id": "p17",
+          "tipo": "senal",
+          "nombre": "camino_aspero",
+          "titulo": "Camino áspero",
+          "categoria": "warning",
+          "ruta": "signals/warning/p17_camino_aspero.png",
+          "descripcion": "Indica superficie irregular o en mal estado."
+        },
+        {
+          "id": "p18",
+          "tipo": "senal",
+          "nombre": "resalto",
+          "titulo": "Resalto",
+          "categoria": "warning",
+          "ruta": "signals/warning/p18_resalto.png",
+          "descripcion": "Advierte la presencia de un lomo de burro o resalto en la vía."
+        },
+        {
+          "id": "p19",
+          "tipo": "senal",
+          "nombre": "depresion",
+          "titulo": "Depresión",
+          "categoria": "warning",
+          "ruta": "signals/warning/p19_depresion.png",
+          "descripcion": "Indica una depresión o hundimiento en la calzada."
+        },
+        {
+          "id": "p24",
+          "tipo": "senal",
+          "nombre": "obras",
+          "titulo": "Obras en la vía",
+          "categoria": "warning",
+          "ruta": "signals/warning/p24_obras.png",
+          "descripcion": "Advierte trabajos de construcción o mantenimiento en la vía."
+        },
+        {
+          "id": "p25",
+          "tipo": "senal",
+          "nombre": "doble_circulacion",
+          "titulo": "Doble circulación",
+          "categoria": "warning",
+          "ruta": "signals/warning/p25_doble_circulacion.png",
+          "descripcion": "Indica que la vía pasa a ser de doble sentido."
+        },
+        {
+          "id": "p27",
+          "tipo": "senal",
+          "nombre": "calzada_resbaladiza",
+          "titulo": "Calzada resbaladiza",
+          "categoria": "warning",
+          "ruta": "signals/warning/p27_calzada_resbaladiza.png",
+          "descripcion": "Advierte baja adherencia por lluvia, hielo o suciedad."
+        },
+        {
+          "id": "p31",
+          "tipo": "senal",
+          "nombre": "cruce_peatones",
+          "titulo": "Cruce de peatones",
+          "categoria": "warning",
+          "ruta": "signals/warning/p31_cruce_de_peatones.png",
+          "descripcion": "Indica la proximidad de un cruce peatonal."
+        },
+        {
+          "id": "p32",
+          "tipo": "senal",
+          "nombre": "zona_escolar",
+          "titulo": "Zona escolar",
+          "categoria": "warning",
+          "ruta": "signals/warning/p32_zona_escolar.png",
+          "descripcion": "Advierte proximidad de una zona con presencia de escolares."
+        },
+        {
+          "id": "i1",
+          "tipo": "senal",
+          "nombre": "inicio_jurisdiccion_nacional",
+          "titulo": "Inicio jurisdicción nacional",
+          "categoria": "informative",
+          "ruta": "signals/informative/inicio_jurisdiccion_nacional.png",
+          "descripcion": "Indica ingreso a jurisdicción vial nacional."
+        },
+        {
+          "id": "i2",
+          "tipo": "senal",
+          "nombre": "informacion_general",
+          "titulo": "Información general",
+          "categoria": "informative",
+          "ruta": "signals/informative/informacion_general.png",
+          "descripcion": "Proporciona información útil sobre la vía o zona."
+        },
+        {
+          "id": "i3",
+          "tipo": "senal",
+          "nombre": "via_ciclista",
+          "titulo": "Vía ciclista",
+          "categoria": "informative",
+          "ruta": "signals/informative/via_ciclista.png",
+          "descripcion": "Indica carril o vía exclusiva para bicicletas."
+        },
+        {
+          "id": "i4",
+          "tipo": "senal",
+          "nombre": "restaurante",
+          "titulo": "Restaurante",
+          "categoria": "informative",
+          "ruta": "signals/informative/restaurante.png",
+          "descripcion": "Indica la presencia de un restaurante cercano."
+        },
+        {
+          "id": "i5",
+          "tipo": "senal",
+          "nombre": "hospital",
+          "titulo": "Hospital",
+          "categoria": "informative",
+          "ruta": "signals/informative/hospital.png",
+          "descripcion": "Indica la ubicación de un centro de salud o hospital."
+        },
+        {
+          "id": "i6",
+          "tipo": "senal",
+          "nombre": "gasolinera",
+          "titulo": "Gasolinera",
+          "categoria": "informative",
+          "ruta": "signals/informative/gasolinera.png",
+          "descripcion": "Indica la ubicación de una estación de servicio."
+        },
+        {
+          "id": "i7",
+          "tipo": "senal",
+          "nombre": "estacionamiento_tarifado",
+          "titulo": "Estacionamiento tarifado",
+          "categoria": "informative",
+          "ruta": "signals/informative/estacionamiento_tarifado.png",
+          "descripcion": "Indica estacionamiento con costo o tarifa."
+        },
+        {
+          "id": "i8",
+          "tipo": "senal",
+          "nombre": "estacionamiento_reservado",
+          "titulo": "Estacionamiento reservado",
+          "categoria": "informative",
+          "ruta": "signals/informative/estacionamiento_reservado.png",
+          "descripcion": "Indica estacionamiento exclusivo o reservado."
+        },
+        {
+          "id": "i9",
+          "tipo": "senal",
+          "nombre": "estacionamiento_exclusivo_motos",
+          "titulo": "Estacionamiento exclusivo motos",
+          "categoria": "informative",
+          "ruta": "signals/informative/estacionamiento_exclusivo_motos.png",
+          "descripcion": "Indica zona de estacionamiento exclusiva para motos."
+        },
+        {
+          "id": "i10",
+          "tipo": "senal",
+          "nombre": "direccion",
+          "titulo": "Dirección",
+          "categoria": "informative",
+          "ruta": "signals/informative/direccion.png",
+          "descripcion": "Indica dirección o sentido hacia un destino."
+        }
+    ]
 

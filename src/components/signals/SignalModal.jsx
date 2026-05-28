@@ -28,10 +28,7 @@ const SignalModal = ({ signal, onClose }) => {
         <h2 className="text-2xl font-black text-center">
           {signal.titulo}
         </h2>
-
-        <p className="text-center text-slate-500 mt-2 capitalize">
-          {signal.categoria}
-        </p>
+        <p className="text-center text-slate-500 mt-2">{signal.descripcion}</p>
 
       </div>
     </div>
