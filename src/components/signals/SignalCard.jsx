@@ -25,7 +25,7 @@ const SignalCard = ({ signal, onSelect }) => {
         className={`${getColor(signal.categoria)} h-40 flex items-center justify-center`}
       >
         <img
-          src={`src/assets/${signal.ruta}`}
+          src={`${signal.ruta}`}
           alt={signal.titulo}
           className="max-h-24 object-contain"
         />
