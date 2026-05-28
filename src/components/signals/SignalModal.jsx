@@ -18,7 +18,7 @@ const SignalModal = ({ signal, onClose }) => {
         {/* Imagen */}
         <div className="flex justify-center mb-6">
           <img
-            src={`src/assets/${signal.ruta}`}
+            src={`${signal.ruta}`}
             alt={signal.titulo}
             className="max-h-40 object-contain"
           />
