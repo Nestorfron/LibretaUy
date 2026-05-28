@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "category": "Señales",
+      "difficulty": "Fácil",
+      "question": "¿Qué significa esta señal?",
+      "image": "🛑",
+      "options": [
+        "Prohibido estacionar",
+        "Pare obligatorio",
+        "Velocidad máxima",
+        "Ceda el paso"
+      ],
+      "correctAnswer": "Pare obligatorio"
+    },
+    {
+      "id": 2,
+      "category": "Normativa",
+      "difficulty": "Media",
+      "question": "¿Cuál es el límite de alcohol permitido para conducir en Uruguay?",
+      "image": "🍺",
+      "options": [
+        "0.3",
+        "0.5",
+        "0.0",
+        "1.0"
+      ],
+      "correctAnswer": "0.0"
+    },
+    {
+      "id": 3,
+      "category": "Prioridad",
+      "difficulty": "Fácil",
+      "question": "¿Quién tiene prioridad en una rotonda?",
+      "image": "⭕",
+      "options": [
+        "Quien entra",
+        "Quien circula dentro",
+        "El vehículo más grande",
+        "El más rápido"
+      ],
+      "correctAnswer": "Quien circula dentro"
+    }
+  ]
