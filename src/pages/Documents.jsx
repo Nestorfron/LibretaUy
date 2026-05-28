@@ -1,21 +1,17 @@
-import { useState } from "react";
+
 import Navbar from "../components/layout/Navbar";
 import PageContainer from "../components/layout/PageContainer";
 
 import DocumentCard from "../components/documents/DocumentCard";
-import DocumentModal from "../components/documents/DocumentModal";
 
 export default function Documents() {
-  const [selectedDoc, setSelectedDoc] = useState(null);
-
   const documents = [
     {
       id: 1,
       title: "Guía de Autos y Motos",
       description: "Material oficial para el examen teórico",
-      file: "pdf/GuiaAutosYMotos.pdf",
+      file: "/pdfs/GuiaAutosYMotos.pdf",
       size: "8 MB",
-      category: "guias",
     },
     {
         id: 2,
@@ -45,29 +41,19 @@ export default function Documents() {
             </h1>
 
             <p className="text-slate-600 text-lg mt-5 leading-relaxed">
-              Accede a guías oficiales y material clave para preparar tu examen de conducción.
+              Descarga guías oficiales para preparar tu examen de conducción.
             </p>
           </div>
 
           {/* GRID */}
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-10">
             {documents.map((doc) => (
-              <DocumentCard
-                key={doc.id}
-                document={doc}
-                onSelect={setSelectedDoc}
-              />
+              <DocumentCard key={doc.id} document={doc} />
             ))}
           </div>
 
         </section>
       </PageContainer>
-
-      {/* MODAL */}
-      <DocumentModal
-        document={selectedDoc}
-        onClose={() => setSelectedDoc(null)}
-      />
     </div>
   );
 }
