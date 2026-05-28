@@ -1,4 +1,4 @@
-import AnswerOption from "../quiz/AnswerOption.jsx";
+import AnswerOption from "./AnswerOption";
 
 export default function QuestionCard({
   question,

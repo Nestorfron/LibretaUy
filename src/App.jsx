@@ -7,6 +7,7 @@ import Quiz from "./pages/Quiz";
 import Signals from "./pages/Signals";
 import Profile from "./pages/Profile";
 import Results from "./pages/Results";
+import Document from "./pages/Documents";
 
 function App() {
   const [updateAvailable, setUpdateAvailable] = useState(false);
@@ -42,6 +43,7 @@ function App() {
         <Route path="/signals" element={<Signals />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/results" element={<Results />} />
+        <Route path="/documents" element={<Document />} />
       </Routes>
 
       {updateAvailable && (

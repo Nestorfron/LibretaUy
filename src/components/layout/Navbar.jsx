@@ -20,7 +20,7 @@ export default function Navbar() {
       path: "/",
     },
     {
-      name: "Quiz",
+      name: "Preguntas",
       path: "/quiz",
     },
     {
@@ -28,9 +28,14 @@ export default function Navbar() {
       path: "/signals",
     },
     {
-      name: "Perfil",
-      path: "/profile",
+      name: "Documentos",
+      path: "/documents",
     },
+    // {
+    //   name: "Perfil",
+    //   path: "/profile",
+    // },
+
   ];
 
   useEffect(() => {

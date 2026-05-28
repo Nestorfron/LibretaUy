@@ -28,15 +28,9 @@ export default function Hero() {
                 to="/quiz"
                 className="px-7 py-4 rounded-2xl bg-emerald-600 hover:bg-emerald-700 transition text-white font-semibold shadow-lg shadow-emerald-500/20"
               >
-                Comenzar gratis
+                Ver Simulador
               </Link>
-
-              <Link
-                to="/signals"
-                className="px-7 py-4 rounded-2xl border border-slate-300 hover:bg-white transition font-semibold"
-              >
-                Ver simulador
-              </Link>
+              
             </div>
 
             <Stats />
