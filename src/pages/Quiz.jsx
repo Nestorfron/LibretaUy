@@ -26,6 +26,7 @@ export default function Quiz() {
   const [score, setScore] = useState(0);
   const [answers, setAnswers] = useState([]);
 
+
   const question = shuffledQuestions[currentQuestion];
 
   const handleNext = () => {

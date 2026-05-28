@@ -3,9 +3,10 @@ import { useLocation } from "react-router-dom";
 import Navbar from "../components/layout/Navbar";
 import PageContainer from "../components/layout/PageContainer";
 
-export default function Review() {
+export default function Review( ) {
   const location = useLocation();
-  const answers = location.state?.answers || [];
+  const answers = location.state || [];
+
 
   const correctCount = answers.filter(
     (a) => a.userAnswer === a.correctAnswer
@@ -21,10 +22,6 @@ export default function Review() {
           <h1 className="text-4xl font-black">
             Revisión completa
           </h1>
-
-          <p className="text-slate-600">
-            {correctCount} correctas de {answers.length}
-          </p>
 
           {answers.map((question, index) => {
             const isCorrectUser =
